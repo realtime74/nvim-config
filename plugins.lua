@@ -23,4 +23,8 @@ require('pckr').add{
   { "tpope/vim-fugitive", },
   { "vim-airline/vim-airline" },
   { "catppuccin/nvim", name="catppuccin" },
+  { "kien/ctrlp.vim" },
+  { "nvim-tree/nvim-tree.lua" },
 }
+
+require('nvim-tree').setup()
