@@ -18,5 +18,8 @@ bootstrap_pckr()
 
 require('pckr').add{
   { "github/copilot.vim", },
+  { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" },
+  { "fatih/vim-go" },
   { "tpope/vim-fugitive", },
+  { "vim-airline/vim-airline" },
 }
