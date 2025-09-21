@@ -22,4 +22,5 @@ require('pckr').add{
   { "fatih/vim-go" },
   { "tpope/vim-fugitive", },
   { "vim-airline/vim-airline" },
+  { "catppuccin/nvim", name="catppuccin" },
 }
