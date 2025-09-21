@@ -13,4 +13,6 @@ vim.keymap.set("n", "<leader>3", "3<C-w>w")
 vim.keymap.set("n", "<leader>4", "4<C-w>w")
 vim.keymap.set("n", "<leader>5", "5<C-w>w")
 
+vim.keymap.set("n", "<leader>gb", ":GoBuild<CR>")
+
 vim.keymap.set("i", "jj", "<esc>")
