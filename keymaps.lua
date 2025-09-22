@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>N", ":e .<CR>")
+vim.keymap.set("n", "<leader>f", ":e .<CR>")
 
 vim.keymap.set("n", "<F5>", ":source %<CR>")
 
